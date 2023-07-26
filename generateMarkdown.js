@@ -10,6 +10,15 @@ function renderLicenseBadge(license) {
   else if (license === "BSD-3-Clause") {
     return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
   }
+  else if (license === "Boost Software License 1.0") {
+    return `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
+  }
+  else if (license === "GNU GPL v3") {
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+  }
+  else if (license === "Eclipse Public License 1.0") {
+    return `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
+  }
   else {
     return "";
   }
@@ -26,6 +35,15 @@ function renderLicenseLink(license) {
   }
   else if (license === "BSD-3-Clause") {
     return "https://opensource.org/licenses/BSD-3-Clause";
+  }
+  else if (license === "Boost Software License 1.0") {
+    return "https://www.boost.org/LICENSE_1_0.txt";
+  }
+  else if (license === "GNU GPL v3") {
+    return "https://www.gnu.org/licenses/gpl-3.0";
+  }
+  else if (license === "Eclipse Public License 1.0") {
+    return "https://opensource.org/licenses/EPL-1.0";
   }
   else {
     return "";
@@ -44,6 +62,15 @@ function renderLicenseSection(license) {
   else if (license === "BSD-3-Clause") {
     return "## License";
   }
+  else if (license === "Boost Software License 1.0") {
+    return "## License";
+  }
+  else if (license === "GNU GPL v3") {
+    return "## License";
+  }
+  else if (license === "Eclipse Public License 1.0") {
+    return "## License";
+  }
   else {
     return "";
   }
@@ -57,7 +84,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Testing](#testing)
+  * [Tests](#tests)
   * [Contributing](#contributing)
   * [License](#license)
   * [Questions](#questions)
@@ -65,7 +92,7 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage
   ${data.usage}
-  ## Testing
+  ## Tests
   ${data.test}
   ## Contributing
   ${data.contributing}
