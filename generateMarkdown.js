@@ -19,7 +19,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Testing](#testing)
-  * [Contributing Guidelines](#contributing)
+  * [Contributing](#contributing)
   * [License](#license)
   * [Questions](#questions)
   ## Installation
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   ## Questions
-  Feel free to reach out to me at ${data.email}
+  Feel free to reach out to me at [${data.email}](mailto:${data.email})
   | Github | ${data.username} |
 `;
 }
