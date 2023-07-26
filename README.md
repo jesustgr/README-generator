@@ -11,7 +11,7 @@
   ## Installation
   In order to use the README Generator, the user must navigate to their cloned direcctory and run 'npm install' in their command line.
   ## Usage
-  To use the README Generator, the user navigates to their cloned directory and runs 'node index.js' in their command line. They are then prompted with questions regarding the information that will be included in their README. Using the answers given by the user, the application dynamically creates a professional README.
+  To use the README Generator, the user navigates to their cloned directory and runs 'node index.js' in their command line. They are then prompted with questions regarding the information that will be included in their README. Using the answers given by the user as input, the application dynamically creates a professional README.
   ## Tests
   There are no written test cases within the repository, but as a user or contributor, anyone can use a testing framework such as jest to test the functionality of the application as is or test the functionality of any features one were to add.
   ## Contributing
