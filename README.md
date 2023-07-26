@@ -16,9 +16,8 @@
   f
   ## Contributing
   f
-  ## License
+  ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   This application is covered under the MIT license.\
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\
   for additional information, click here: https://opensource.org/licenses/MIT
   ## Questions
   Feel free to reach out to me at [f](mailto:f)\
