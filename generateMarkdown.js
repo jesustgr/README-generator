@@ -18,15 +18,15 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Test](#test)
-  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Contributing Guidelines](#contributing)
   * [License](#license)
   * [Questions](#questions)
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
-  ## Test
+  ## Testing
   ${data.test}
   ## Contributing
   ${data.contributing}

@@ -27,27 +27,27 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the test instructions for your project?",
+        message: "What are the testing instructions for your project?",
         name: "test",
     },
     {
         type: "input",
-        message: "What are the contributors instructions for your project?",
+        message: "Who contributed to your project?",
         name: "contributing",
     },
     {
         type: "input",
-        message: "What is the license for your project?",
+        message: "What is/are the license(s) for your project?",
         name: "license",
     },
     {
         type: "input",
-        message: "What is the GitHub username for your project?",
+        message: "What is your GitHub username?",
         name: "username",
     },
     {
         type: "input",
-        message: "What is the email for your project?",
+        message: "What email is good to contact you?",
         name: "email",
     }
 ];
