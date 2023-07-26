@@ -69,14 +69,12 @@ function generateMarkdown(data) {
   ${data.test}
   ## Contributing
   ${data.contributing}
-  ${renderLicenseSection(data.license)}
-  This application is covered under the ${data.license} license.
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
-  ${data.license}
+  ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  This application is covered under the ${data.license} license.<br>
+  For more information, please visit ${renderLicenseLink(data.license)}
   ## Questions
-  Feel free to reach out to me at [${data.email}](mailto:${data.email})
-  | Github | ${data.username} |
+  Feel free to reach out to me at [${data.email}](mailto:${data.email})<br>
+  | Github | [https://github.com/${data.username}](https://github.com/${data.username}) | 
 `;
 }
 
