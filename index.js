@@ -47,14 +47,21 @@ const questions = [
         type: "input",
         message: "What is the email for your project?",
         name: "email",
-    },
+    }
+    .then((answers) => {
+        writeToFile("user-README.md", generateMarkdown(answers));
+    })
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions);
+}
 
 // Function call to initialize app
 init();
