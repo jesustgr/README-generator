@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize app
 function init() {
-    writeToFile("README.md", questions);
+    writeToFile("user-README.md", questions);
 }
 
 // Function call to initialize app
